@@ -8,7 +8,7 @@ body {
   
   .header {
     color:#000000;
-    height: 250px;
+    height: 200px;
   }
   
   .header-logo {
@@ -31,17 +31,21 @@ body {
 
   .header-list li {
     float: left;
-    padding: 33px 20px;
+    padding: 33px 30px;
   }
 /* ここからがボティだよ*/
 
   .main {
-    padding: 100px 80px;
+    padding: 10px 40px;
   }
     
   .contents {
-    height: 500px;
     margin-top: 100px;
+  }
+
+  .contents img{
+    width: 250px;
+    height: 300px;
   }
   
   .section-title {
@@ -61,6 +65,11 @@ body {
     margin-top: 30px;
   }
   
+  .container {
+    display: flex;
+    margin-right: 100px;
+  }
+
   .contact-form {
     padding-top: 100px;
   }
@@ -83,8 +92,6 @@ body {
   /* ここからがフッターだよ*/
 
   .footer {
-    background-color:#fafad2;
-    color: #fff;
     height: 120px;
     padding: 40px;
   }
